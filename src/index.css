@@ -1,0 +1,93 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Space+Grotesk:wght@400;500;700&family=Pacifico&display=swap');
+@import "tailwindcss";
+
+body {
+  transition: background-color 0.3s ease, color 0.3s ease, font-family 0.3s ease;
+}
+
+.theme-light {
+  --bg-primary: #ffffff;
+  --text-primary: #1f2937;
+  --accent: #f3f4f6;
+  --bg-section: #E0E0E0;
+  --text-section: #374151;
+  --border-card: #939393;
+  --hover-card: #dbeafe;
+  --text-card: #111827;
+  --font-family: 'Inter', sans-serif;
+  --font-size-base: 14px; 
+  --font-size-heading: 1.5rem; 
+  --font-size-subheading: 1.125rem; 
+  --text-title-about: #111827;
+  --text-subTitle-about: #111827;
+  --bg-about: #E0E0E0;
+  --bg-contact: #E0E0E0;
+  --text-title-contact: #111827;
+  --text-subTitle-contact: #111827;
+  --logo: #4F96D8;
+  --text-logo: #073965;
+  --bg-skeleton: #e5e7eb; 
+
+}
+
+.theme-dark {
+  --bg-primary: #0f172a;
+  --text-primary: #f1f5f9;
+  --accent: #1e293b;
+  --bg-section: #1f2937;
+  --text-section: #cbd5e1;
+  --border-card: #334155;
+  --hover-card: #3b82f6;
+  --text-card: #f1f5f9;
+  --font-family: 'Georgia, serif'; 
+  --font-size-base: 16px; 
+  --font-size-heading: 1.75rem; 
+  --font-size-subheading: 1.25rem; 
+  --text-title-about: #f1f5f9;
+  --text-subTitle-about: #cbd5e1;
+  --bg-about: #334155;
+  --bg-contact: #334155;
+  --text-title-contact: #f1f5f9;
+  --text-subTitle-contact: #cbd5e1;
+  --logo: #f1f5f9;
+  --text-logo: #f1f5f9;
+  --bg-skeleton: #334155; 
+}
+
+.theme-color {
+  --bg-primary: #fbeaff;
+  --text-primary: #2e1065;
+  --accent: #facc15;
+  --bg-section: #fffbeb;
+  --text-section: #b45309;
+  --border-card: #b45309;
+  --hover-card: #f472b6;
+  --text-card: #9d174d;
+  --font-family: 'Pacifico', cursive; 
+  --font-size-base: 17px; 
+  --font-size-heading: 2rem;
+  --font-size-subheading: 1.375rem; 
+  --text-title-about: #b45309;
+  --text-subTitle-about: #9d174d;
+  --bg-about: #fffbeb;
+  --bg-contact: #fffbeb;
+  --text-title-contact: #b45309;
+  --text-subTitle-contact: #9d174d;
+  --logo: #FCA91A;
+  --text-logo: #E3823B;
+  --bg-skeleton: #fcd34d; 
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: var(--font-size-base);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-family);
+}
+
+p {
+  font-size: var(--font-size-base);
+  line-height: 1.5;
+}
